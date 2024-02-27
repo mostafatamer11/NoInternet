@@ -1,14 +1,3 @@
-import tkinter as tk
+from engine import Engine
 
-# Create the main window
-window = tk.Tk()
-window.title("PythonExamples.org")
-
-# Maximize window
-window.state("zoomed")
-
-label = tk.Label(window, text="Hello World!")
-label.pack()
-
-# Run the application
-window.mainloop()
+Engine(900, 700, "Game").run()
